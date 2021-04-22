@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+#header{
+    width:100%;
+    text-align:center;
+    
+}
+
+.logo{
+    z-index:1;
+    width:150px;
+    display:inline-block;
+    position: absolute;
+    transform: translateX(-50%);
+    top:30px;
+}
+
+.logo a{
+    display:block;
+    height: 100%;
+}
+.logo img{
+    width:100%;
+    display: block;
+}
+
+
+
+.gnb{
+    width:100%;
+    position:absolute;
+    z-index:1;
+    bottom:20px;
+    font-family: 'Knockout-HTF48-Featherweight';
+    font-size:28px;
+    text-align:center;
+    
+}
+
+.gnb li{
+    margin:0 90px;
+    display: inline-block;
+}
+
+.gnb li a{
+    display: block;
+    height: 100%;
+    color:#fff;
+}
+
+.gnb li:last-child a,.gnb02 li:last-child a{color:#f1c761;}
+
+
+/*header02*/
+#header02{
+    width:100%;
+    text-align:center;
+    font-family: 'Knockout-HTF48-Featherweight';
+}
+
+
+.gnb02{
+    width:100%;
+    position:absolute;
+    z-index:1;
+    top:16px;
+    font-family: 'Knockout-HTF48-Featherweight';
+    font-size:26px;
+    text-align:center;
+}
+
+.gnb02 li{
+    display: inline-block;
+    margin:0 62px;
+    /*vertical-align: middle;*/
+
+}
+.gnb02 li a{
+    display: block;
+    
+}
+
+
+.logo02{
+    width:100px;
+    z-index:1;
+    /*vertical-align: middle;*/
+}
+
+.logo02 img{width:100%;}
+
+
+
+
+/*footer*/
+#footer{
+    width:100%;
+    text-align: center;
+    padding:20px 0;
+}
+#footer,#footer a{
+    background: #18191a;
+    color:#828282;
+    font-family: 'NotoSans';
+    font-weight: 200;
+}
+
+#footer div{
+    display: inline-block;
+}
+
+.fLogo{
+    width:150px;   
+    vertical-align: middle;
+}
+
+.fLogo img{
+    display: block;
+    width:100%;
+}
+
+.fTxt{
+    margin-left:30px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+.fMenu li{float:left;}
+
+.fMenu li::after{
+    content: "";
+    display: inline-block;
+    width:1px;
+    height:12px;
+    background: #828282;
+    margin:0 5px;
+}
+
+.fMenu li:hover a{
+    color:#fff;
+}
+
+.dr{margin-top:20px;}
+
+
+/*side nav*/
+.fp-sr-only{
+    width:2px;
+    height:10px;
+    background: #fff;
+}
+
+
+
